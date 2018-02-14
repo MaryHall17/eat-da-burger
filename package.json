@@ -1,0 +1,30 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "An app that lets you create burgers to \"eat\" and \"devour\" them with a click of a button.",
+  "main": "server.js",
+  "scripts": {
+    "test": "Hello, world!",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaryHall17/eat-da-burger.git"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "Mary Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaryHall17/eat-da-burger/issues"
+  },
+  "homepage": "https://github.com/MaryHall17/eat-da-burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
