@@ -6,6 +6,7 @@
 	</div>
 	
 	<button type="submit">Add Burger</button> 
+</form>
 
 
 
@@ -13,7 +14,7 @@
 	{{#each burgers}}
 		{{#unless devoured}}
 			<li>
-				{{name}}
+				{{burger_name}}
 
 					<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
 						{{#if devoured}}Devoured!That was delicous!{{else}}Devour it!{{/if}}
@@ -27,7 +28,7 @@
 	{{#each burgers}}
 		{{#if devoured}} 
 			<li>
-				{{name}}
+				{{burger_name}}
 			</li>
 		{{/if}}
 	{{/each}}
