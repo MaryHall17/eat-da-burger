@@ -10,6 +10,15 @@ h2 {
   background: #faebd7;
 }
 */
+.burgers-to-eat {
+	position: absolute;
+	left: 0px;
+}
+
+.burgers-eaten {
+	position: absolute;
+	right: 5px;
+}
 .label {
   font-weight: bold;
 }
