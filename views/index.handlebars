@@ -10,7 +10,7 @@
 
 
 
-<ul class="burgers-to-eat">
+<ol class="burgers-to-eat">
 	{{#each burgers}}
 		{{#unless devoured}}
 			<li>
@@ -22,9 +22,9 @@
 			</li>
 		{{/unless}}
 	{{/each}}
-</ul>
+</ol>
 
-<ul class="burgers-eaten">
+<ol class="burgers-eaten">
 	{{#each burgers}}
 		{{#if devoured}} 
 			<li>
@@ -32,6 +32,6 @@
 			</li>
 		{{/if}}
 	{{/each}}
-</ul>
+</ol>
 
 
