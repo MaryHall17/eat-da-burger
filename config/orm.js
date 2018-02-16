@@ -20,7 +20,7 @@ function objToSql(object) {
 	for (var key in object) {
 		var value = object[key];
 		//check to skip hidden properties
-		if (Object.hasOwnProperty.call(object,key)) {
+		if (Object.hasOwnProperty.call(object, key)) {
 			//if string with spaces, add quotations
 			if (typeof value === "string" && value.indexOf(" ") >=0) {
 				value = "'" + value + "'";
@@ -67,9 +67,9 @@ var orm = {
 	updateOne: function(table, objColVals, condition, cb) {
 		var queryString = "UPDATE " + table;
 
-		queryString += "SET "; 
+		queryString += " SET "; 
 		queryString += objToSql(objColVals);
-		queryString += "WHERE ";
+		queryString += " WHERE ";
 		queryString += condition;
 
 		console.log(queryString);
